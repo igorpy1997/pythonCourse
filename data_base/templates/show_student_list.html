@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel = "stylesheet" href = "/static/css/site.css" />
+</head>
+<body>
+<table class = "table">
+    <tbody>
+    <tr class = "table_header">
+        <td>id</td>
+    <td>Name</td>
+    <td>Language</td>
+    <td>Course</td>
+    <td>Grade</td>
+</tr>
+    {% for item in student_list %}
+<tr class = "table_row">
+    <td>{{item[0]}}</td>
+    <td>{{item[1]}}</td>
+    <td>{{item[2]}}</td>
+    <td>{{item[3]}}</td>
+    <td>{{item[4]}}</td>
+    <td>
+       <form class="form-inline"  action="writing_menu_db/{{item[0]}}">
+          	<button type="submit" class="change_info">Edit</button>
+         </form></td>
+    <td>
+        <form class="form-inline"  action="delete_item/{{item[0]}}">
+          	<button type="submit" class="del_info">-</button>
+         </form></td>
+    </td>
+    </tr>
+    </td>
+{% endfor %}
+    </tbody>
+</table>
+ <form class="form-inline" action="writing_menu_db/new_element">
+          	<button type="submit" class="change_info">Add student</button>
+         </form>
+</body>
+</html>
