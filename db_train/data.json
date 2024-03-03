@@ -1,0 +1,915 @@
+[
+{
+    "model": "application.publisher",
+    "pk": 22,
+    "fields": {
+        "name": "Penguin Books"
+    }
+},
+{
+    "model": "application.publisher",
+    "pk": 23,
+    "fields": {
+        "name": "HarperCollins"
+    }
+},
+{
+    "model": "application.publisher",
+    "pk": 24,
+    "fields": {
+        "name": "Random House"
+    }
+},
+{
+    "model": "application.publisher",
+    "pk": 25,
+    "fields": {
+        "name": "Simon & Schuster"
+    }
+},
+{
+    "model": "application.publisher",
+    "pk": 26,
+    "fields": {
+        "name": "Macmillan"
+    }
+},
+{
+    "model": "application.author",
+    "pk": 16,
+    "fields": {
+        "name": "Stephen King",
+        "age": 73
+    }
+},
+{
+    "model": "application.author",
+    "pk": 17,
+    "fields": {
+        "name": "Victor Hugo",
+        "age": 78
+    }
+},
+{
+    "model": "application.author",
+    "pk": 18,
+    "fields": {
+        "name": "Leo Tolstoy",
+        "age": 82
+    }
+},
+{
+    "model": "application.author",
+    "pk": 19,
+    "fields": {
+        "name": "Fyodor Dostoevsky",
+        "age": 59
+    }
+},
+{
+    "model": "application.author",
+    "pk": 20,
+    "fields": {
+        "name": "Jane Austen",
+        "age": 41
+    }
+},
+{
+    "model": "application.author",
+    "pk": 21,
+    "fields": {
+        "name": "Harper Lee",
+        "age": 89
+    }
+},
+{
+    "model": "application.author",
+    "pk": 22,
+    "fields": {
+        "name": "George Orwell",
+        "age": 46
+    }
+},
+{
+    "model": "application.author",
+    "pk": 23,
+    "fields": {
+        "name": "F. Scott Fitzgerald",
+        "age": 44
+    }
+},
+{
+    "model": "application.author",
+    "pk": 24,
+    "fields": {
+        "name": "Gabriel Garcia Marquez",
+        "age": 87
+    }
+},
+{
+    "model": "application.author",
+    "pk": 25,
+    "fields": {
+        "name": "Herman Melville",
+        "age": 72
+    }
+},
+{
+    "model": "application.author",
+    "pk": 26,
+    "fields": {
+        "name": "J.D. Salinger",
+        "age": 91
+    }
+},
+{
+    "model": "application.author",
+    "pk": 27,
+    "fields": {
+        "name": "J.R.R. Tolkien",
+        "age": 81
+    }
+},
+{
+    "model": "application.author",
+    "pk": 28,
+    "fields": {
+        "name": "J.K. Rowling",
+        "age": 56
+    }
+},
+{
+    "model": "application.author",
+    "pk": 29,
+    "fields": {
+        "name": "C.S. Lewis",
+        "age": 64
+    }
+},
+{
+    "model": "application.author",
+    "pk": 30,
+    "fields": {
+        "name": "Oscar Wilde",
+        "age": 46
+    }
+},
+{
+    "model": "application.author",
+    "pk": 31,
+    "fields": {
+        "name": "Miguel de Cervantes",
+        "age": 69
+    }
+},
+{
+    "model": "application.author",
+    "pk": 32,
+    "fields": {
+        "name": "Dante Alighieri",
+        "age": 56
+    }
+},
+{
+    "model": "application.author",
+    "pk": 33,
+    "fields": {
+        "name": "Friedrich Nietzsche",
+        "age": 55
+    }
+},
+{
+    "model": "application.author",
+    "pk": 34,
+    "fields": {
+        "name": "Mark Twain",
+        "age": 74
+    }
+},
+{
+    "model": "application.author",
+    "pk": 35,
+    "fields": {
+        "name": "Emily Bronte",
+        "age": 30
+    }
+},
+{
+    "model": "application.author",
+    "pk": 36,
+    "fields": {
+        "name": "Douglas Adams",
+        "age": 38
+    }
+},
+{
+    "model": "application.author",
+    "pk": 37,
+    "fields": {
+        "name": "Eoin Colfer",
+        "age": 48
+    }
+},
+{
+    "model": "application.author",
+    "pk": 38,
+    "fields": {
+        "name": "Christopher Tolkien",
+        "age": 58
+    }
+},
+{
+    "model": "application.book",
+    "pk": 1,
+    "fields": {
+        "name": "Insomnia",
+        "pages": 500,
+        "price": "29.99",
+        "rating": 4.5,
+        "publisher": 23,
+        "pubdate": "2022-01-01",
+        "authors": [
+            16
+        ]
+    }
+},
+{
+    "model": "application.book",
+    "pk": 2,
+    "fields": {
+        "name": "The Shining",
+        "pages": 400,
+        "price": "39.99",
+        "rating": 4.8,
+        "publisher": 25,
+        "pubdate": "2022-02-01",
+        "authors": [
+            16
+        ]
+    }
+},
+{
+    "model": "application.book",
+    "pk": 3,
+    "fields": {
+        "name": "Les Mis├йrables",
+        "pages": 1200,
+        "price": "24.99",
+        "rating": 4.2,
+        "publisher": 24,
+        "pubdate": "2022-03-01",
+        "authors": [
+            17
+        ]
+    }
+},
+{
+    "model": "application.book",
+    "pk": 4,
+    "fields": {
+        "name": "War and Peace",
+        "pages": 1400,
+        "price": "49.99",
+        "rating": 4.7,
+        "publisher": 26,
+        "pubdate": "2022-04-01",
+        "authors": [
+            18
+        ]
+    }
+},
+{
+    "model": "application.book",
+    "pk": 5,
+    "fields": {
+        "name": "Crime and Punishment",
+        "pages": 600,
+        "price": "19.99",
+        "rating": 4.3,
+        "publisher": 24,
+        "pubdate": "2022-05-01",
+        "authors": [
+            19
+        ]
+    }
+},
+{
+    "model": "application.book",
+    "pk": 6,
+    "fields": {
+        "name": "Pride and Prejudice",
+        "pages": 350,
+        "price": "34.99",
+        "rating": 4.6,
+        "publisher": 22,
+        "pubdate": "2022-06-01",
+        "authors": [
+            20
+        ]
+    }
+},
+{
+    "model": "application.book",
+    "pk": 7,
+    "fields": {
+        "name": "To Kill a Mockingbird",
+        "pages": 400,
+        "price": "27.99",
+        "rating": 4.4,
+        "publisher": 22,
+        "pubdate": "2022-07-01",
+        "authors": [
+            21
+        ]
+    }
+},
+{
+    "model": "application.book",
+    "pk": 8,
+    "fields": {
+        "name": "1984",
+        "pages": 300,
+        "price": "44.99",
+        "rating": 4.9,
+        "publisher": 25,
+        "pubdate": "2022-08-01",
+        "authors": [
+            22
+        ]
+    }
+},
+{
+    "model": "application.book",
+    "pk": 19,
+    "fields": {
+        "name": "Hamlet",
+        "pages": 400,
+        "price": "39.99",
+        "rating": 4.8,
+        "publisher": 26,
+        "pubdate": "2023-07-01",
+        "authors": []
+    }
+},
+{
+    "model": "application.book",
+    "pk": 20,
+    "fields": {
+        "name": "Alices Adventures in Wonderland",
+        "pages": 1200,
+        "price": "24.99",
+        "rating": 4.2,
+        "publisher": 25,
+        "pubdate": "2023-08-01",
+        "authors": [
+            26
+        ]
+    }
+},
+{
+    "model": "application.book",
+    "pk": 21,
+    "fields": {
+        "name": "The Picture of Dorian Gray",
+        "pages": 1400,
+        "price": "49.99",
+        "rating": 4.7,
+        "publisher": 25,
+        "pubdate": "2023-09-01",
+        "authors": [
+            30
+        ]
+    }
+},
+{
+    "model": "application.book",
+    "pk": 22,
+    "fields": {
+        "name": "The Brothers Karamazov",
+        "pages": 600,
+        "price": "19.99",
+        "rating": 4.3,
+        "publisher": 24,
+        "pubdate": "2023-10-01",
+        "authors": [
+            19
+        ]
+    }
+},
+{
+    "model": "application.book",
+    "pk": 23,
+    "fields": {
+        "name": "Don Quixote",
+        "pages": 350,
+        "price": "34.99",
+        "rating": 4.6,
+        "publisher": 26,
+        "pubdate": "2023-11-01",
+        "authors": [
+            31
+        ]
+    }
+},
+{
+    "model": "application.book",
+    "pk": 24,
+    "fields": {
+        "name": "The Divine Comedy",
+        "pages": 400,
+        "price": "27.99",
+        "rating": 4.4,
+        "publisher": 22,
+        "pubdate": "2023-12-01",
+        "authors": [
+            32
+        ]
+    }
+},
+{
+    "model": "application.book",
+    "pk": 25,
+    "fields": {
+        "name": "Frankenstein",
+        "pages": 300,
+        "price": "44.99",
+        "rating": 4.9,
+        "publisher": 22,
+        "pubdate": "2024-01-01",
+        "authors": []
+    }
+},
+{
+    "model": "application.book",
+    "pk": 26,
+    "fields": {
+        "name": "The Adventures of Tom Sawyer",
+        "pages": 250,
+        "price": "31.99",
+        "rating": 4.2,
+        "publisher": 22,
+        "pubdate": "2024-02-01",
+        "authors": []
+    }
+},
+{
+    "model": "application.book",
+    "pk": 27,
+    "fields": {
+        "name": "Wuthering Heights",
+        "pages": 500,
+        "price": "29.99",
+        "rating": 4.5,
+        "publisher": 25,
+        "pubdate": "2024-03-01",
+        "authors": []
+    }
+},
+{
+    "model": "application.book",
+    "pk": 55,
+    "fields": {
+        "name": "Silmarilion",
+        "pages": 400,
+        "price": "30.32",
+        "rating": 4.9,
+        "publisher": 22,
+        "pubdate": "2022-12-02",
+        "authors": [
+            27,
+            38
+        ]
+    }
+},
+{
+    "model": "application.book",
+    "pk": 56,
+    "fields": {
+        "name": "The Hitchhiker's Guide to the Galaxy",
+        "pages": 400,
+        "price": "30.32",
+        "rating": 3.1,
+        "publisher": 22,
+        "pubdate": "2032-12-02",
+        "authors": [
+            36,
+            37
+        ]
+    }
+},
+{
+    "model": "application.book_authors",
+    "pk": 1,
+    "fields": {
+        "book": 1,
+        "author": 16
+    }
+},
+{
+    "model": "application.book_authors",
+    "pk": 2,
+    "fields": {
+        "book": 2,
+        "author": 16
+    }
+},
+{
+    "model": "application.book_authors",
+    "pk": 3,
+    "fields": {
+        "book": 3,
+        "author": 17
+    }
+},
+{
+    "model": "application.book_authors",
+    "pk": 4,
+    "fields": {
+        "book": 4,
+        "author": 18
+    }
+},
+{
+    "model": "application.book_authors",
+    "pk": 5,
+    "fields": {
+        "book": 5,
+        "author": 19
+    }
+},
+{
+    "model": "application.book_authors",
+    "pk": 6,
+    "fields": {
+        "book": 6,
+        "author": 20
+    }
+},
+{
+    "model": "application.book_authors",
+    "pk": 7,
+    "fields": {
+        "book": 7,
+        "author": 21
+    }
+},
+{
+    "model": "application.book_authors",
+    "pk": 8,
+    "fields": {
+        "book": 8,
+        "author": 22
+    }
+},
+{
+    "model": "application.book_authors",
+    "pk": 9,
+    "fields": {
+        "book": 20,
+        "author": 26
+    }
+},
+{
+    "model": "application.book_authors",
+    "pk": 10,
+    "fields": {
+        "book": 21,
+        "author": 30
+    }
+},
+{
+    "model": "application.book_authors",
+    "pk": 11,
+    "fields": {
+        "book": 22,
+        "author": 19
+    }
+},
+{
+    "model": "application.book_authors",
+    "pk": 12,
+    "fields": {
+        "book": 23,
+        "author": 31
+    }
+},
+{
+    "model": "application.book_authors",
+    "pk": 13,
+    "fields": {
+        "book": 24,
+        "author": 32
+    }
+},
+{
+    "model": "application.book_authors",
+    "pk": 14,
+    "fields": {
+        "book": 55,
+        "author": 27
+    }
+},
+{
+    "model": "application.book_authors",
+    "pk": 15,
+    "fields": {
+        "book": 55,
+        "author": 38
+    }
+},
+{
+    "model": "application.book_authors",
+    "pk": 16,
+    "fields": {
+        "book": 56,
+        "author": 36
+    }
+},
+{
+    "model": "application.book_authors",
+    "pk": 17,
+    "fields": {
+        "book": 56,
+        "author": 37
+    }
+},
+{
+    "model": "application.store",
+    "pk": 1,
+    "fields": {
+        "name": "Barnes & Noble",
+        "books": [
+            1,
+            21
+        ]
+    }
+},
+{
+    "model": "application.store",
+    "pk": 2,
+    "fields": {
+        "name": "Waterstones",
+        "books": [
+            2,
+            22
+        ]
+    }
+},
+{
+    "model": "application.store",
+    "pk": 3,
+    "fields": {
+        "name": "Powell's Books",
+        "books": [
+            3,
+            23
+        ]
+    }
+},
+{
+    "model": "application.store",
+    "pk": 4,
+    "fields": {
+        "name": "Indigo Books",
+        "books": [
+            4,
+            24
+        ]
+    }
+},
+{
+    "model": "application.store",
+    "pk": 5,
+    "fields": {
+        "name": "Books-A-Million",
+        "books": [
+            5,
+            25
+        ]
+    }
+},
+{
+    "model": "application.store",
+    "pk": 6,
+    "fields": {
+        "name": "Foyles",
+        "books": [
+            6
+        ]
+    }
+},
+{
+    "model": "application.store",
+    "pk": 7,
+    "fields": {
+        "name": "Kinokuniya",
+        "books": [
+            7
+        ]
+    }
+},
+{
+    "model": "application.store",
+    "pk": 8,
+    "fields": {
+        "name": "Half Price Books",
+        "books": [
+            8
+        ]
+    }
+},
+{
+    "model": "application.store",
+    "pk": 9,
+    "fields": {
+        "name": "Book Depository",
+        "books": [
+            19
+        ]
+    }
+},
+{
+    "model": "application.store",
+    "pk": 10,
+    "fields": {
+        "name": "Chapters",
+        "books": [
+            20
+        ]
+    }
+},
+{
+    "model": "application.store_books",
+    "pk": 1,
+    "fields": {
+        "store": 1,
+        "book": 1
+    }
+},
+{
+    "model": "application.store_books",
+    "pk": 2,
+    "fields": {
+        "store": 2,
+        "book": 2
+    }
+},
+{
+    "model": "application.store_books",
+    "pk": 3,
+    "fields": {
+        "store": 3,
+        "book": 3
+    }
+},
+{
+    "model": "application.store_books",
+    "pk": 4,
+    "fields": {
+        "store": 4,
+        "book": 4
+    }
+},
+{
+    "model": "application.store_books",
+    "pk": 5,
+    "fields": {
+        "store": 5,
+        "book": 5
+    }
+},
+{
+    "model": "application.store_books",
+    "pk": 6,
+    "fields": {
+        "store": 6,
+        "book": 6
+    }
+},
+{
+    "model": "application.store_books",
+    "pk": 7,
+    "fields": {
+        "store": 7,
+        "book": 7
+    }
+},
+{
+    "model": "application.store_books",
+    "pk": 8,
+    "fields": {
+        "store": 8,
+        "book": 8
+    }
+},
+{
+    "model": "application.store_books",
+    "pk": 9,
+    "fields": {
+        "store": 9,
+        "book": 19
+    }
+},
+{
+    "model": "application.store_books",
+    "pk": 10,
+    "fields": {
+        "store": 10,
+        "book": 20
+    }
+},
+{
+    "model": "application.store_books",
+    "pk": 11,
+    "fields": {
+        "store": 1,
+        "book": 21
+    }
+},
+{
+    "model": "application.store_books",
+    "pk": 12,
+    "fields": {
+        "store": 2,
+        "book": 22
+    }
+},
+{
+    "model": "application.store_books",
+    "pk": 13,
+    "fields": {
+        "store": 3,
+        "book": 23
+    }
+},
+{
+    "model": "application.store_books",
+    "pk": 14,
+    "fields": {
+        "store": 4,
+        "book": 24
+    }
+},
+{
+    "model": "application.store_books",
+    "pk": 15,
+    "fields": {
+        "store": 5,
+        "book": 25
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "cT2SwJ8qxx",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "hfoster",
+        "first_name": "",
+        "last_name": "",
+        "email": "barbaracook@example.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-07-07T19:18:21.624Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "PnfGPSJbFq",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "bfox",
+        "first_name": "",
+        "last_name": "",
+        "email": "rogersshannon@example.net",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-07-07T19:18:21.624Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$Wz560GKkgkOmsgdM7rdI3H$npHqgzUWWEXJ85rIo51gEipcqsMIdcZmHAnvH6Eh58w=",
+        "last_login": "2023-07-07T19:20:25.084Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-07-07T19:19:54.639Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]

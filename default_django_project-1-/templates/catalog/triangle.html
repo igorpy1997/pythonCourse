@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <form action="/triangle/" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    {% if hypotenuse %}
+    <p>Hypotenuse: {{ hypotenuse }}</p>
+    {% endif %}
+    <input type="submit" value="Calculate">
+  </form>
+
+</body>
+</html>
